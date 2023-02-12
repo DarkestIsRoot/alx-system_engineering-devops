@@ -1,7 +1,2 @@
 #!/bin/bash
-cd $OLDPWD 
-if [ $? -eq 0 ]; then 
-	echo "Working directory changed to: $PWD" 
-else 
-	echo "Working directory change failed" 
-fi
+cd -

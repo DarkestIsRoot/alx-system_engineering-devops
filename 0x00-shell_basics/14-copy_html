@@ -1,15 +1,2 @@
 #!/bin/bash
-current_dir=$(pwd) 
-parent_dir=$(dirname "$current_dir") 
-
-for file in "$current_dir"/*.html; do 
-	filename=$(basename "$file") 
-	if [ -f "$parent_dir/$filename" ]; then
-        	if [ "$file" -nt "$parent_dir/$filename" ]; then 
-		cp "$file" "$parent_dir/$filename" 
-		echo "File '$parent_dir/$filename' updated." 
-		fi 
-	else 
-        cp "$file" "$parent_dir/$filename" 
-	echo "File '$parent_dir/$filename' created."
-    fi done
+cp -u *.htm ..

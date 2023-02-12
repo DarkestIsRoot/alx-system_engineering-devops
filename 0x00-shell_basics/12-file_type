@@ -1,6 +1,2 @@
 #!/bin/bash
-if [ -f /tmp/iamafile ]; then echo "/tmp/iamafile is a file." 
-elif [ -d /tmp/iamafile ]; then echo "/tmp/iamafile is a directory." 
-else echo 
-    "/tmp/iamafile is of unknown type."
-fi
+file /tmp/iamafile

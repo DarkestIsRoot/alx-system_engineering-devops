@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s /bin/ls __ls__ if [ $? -eq 0 ]; then echo "Symbolic link '__ls__' -> '/bin/ls' created." else echo "Error creating symbolic link." fi
+ln -s /bin/ls __ls__

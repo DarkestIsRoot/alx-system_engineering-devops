@@ -1,7 +1,2 @@
 #!/bin/bash
-echo "Listing directory: $(pwd)" 
-ls -la 
-echo "Listing directory: $(dirname $(pwd))" 
-ls -la .. 
-echo "Listing directory: /boot" 
-ls -la /boot
+ls -la . .. /boot
