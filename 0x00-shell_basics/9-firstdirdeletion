@@ -1,0 +1,7 @@
+#!/bin/bash
+rm -r /tmp/my_first_directory 
+if [ $? -eq 0 ]; then 
+	echo "Directory '/tmp/my_first_directory' deleted successfully" 
+else echo "Directory deletion failed"
+
+fi
