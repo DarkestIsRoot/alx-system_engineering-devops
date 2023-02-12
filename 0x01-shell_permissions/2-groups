@@ -1,0 +1,5 @@
+#!/bin/bash
+# Get the list of groups for the current user
+groups=$(groups)
+# Print the list of groups
+echo "The current user is part of the following groups: $groups"

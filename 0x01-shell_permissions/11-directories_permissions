@@ -1,0 +1,7 @@
+#!/bin/bash
+# Find all subdirectories in the current directory
+for dir in */; do
+  # Check if the current item is a directory
+  if [ -d "$dir" ]; then
+    # Add execute permission to the directory for the owner, group owner, and all other users
+    chmod +x "$dir" fi done
